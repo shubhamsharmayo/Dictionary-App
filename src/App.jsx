@@ -1,16 +1,15 @@
-import { Component, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
 import Card from './components/Card'
 import { FaSearch } from "react-icons/fa";
+import Loading from './components/Loading'
 
 function App() {
   const [userdata, setuserdata] = useState("")
   const [loader, setloader] = useState(true)
   const [input, setinput] = useState("")
-  const [key, setkey] = useState('')
+  const [load, setload] = useState(true)
 
   function getmeaning() {
     setloader(true)
@@ -24,6 +23,15 @@ function App() {
         setloader(false)
       })
     }
+
+    useEffect(() => {
+      setTimeout(() => {
+        setload(false)
+       }, 1500);
+    
+      
+    }, [])
+    
     console.log(userdata)
     
     const handleKeyPress = (event) => {
@@ -34,6 +42,7 @@ function App() {
    
   return (
     <>
+    {load? <Loading />:
     <div className="container">
       <div className='heading'><h1>Dictionary</h1></div>
       
@@ -48,7 +57,7 @@ function App() {
           <Card userdata={userdata}/>
         </>
       ) : null}
-      </div>
+      </div>}
     </>
   )
 }
