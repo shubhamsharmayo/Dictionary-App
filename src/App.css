@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
 
 body {
-  background-image: url(https://www.hdwallpapers.in/download/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1600x900.jpg);
+  background-image: url(/public/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1600x900.jpg);
   /* background-position: fixed; */
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
@@ -89,7 +89,7 @@ button {
 
 @media screen and (max-width: 580px) {
   body {
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/820/134/desktop-wallpaper-black-aesthetic-cartoon-dark-aesthetic-mobile.jpg) no-repeat fixed center;
+    background-image: url(/public/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1600x900.jpg);
   }
 
   .container {
@@ -145,7 +145,7 @@ button {
 
 @media screen and (max-width: 480px) {
   body {
-    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.jpg), url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19zaW1wbGVfbWluaW1hbGlzdF9waG90b19vZl9tb3VudGFpbl9hbmRfbW9vbl9pbl8zNTcwMjM0My1jM2FjLTRlZmItYjgyNS1lMTIwNmYwYTAwNWVfMS5qcGc.jpg);
+    background-image: url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.webp), url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19zaW1wbGVfbWluaW1hbGlzdF9waG90b19vZl9tb3VudGFpbl9hbmRfbW9vbl9pbl8zNTcwMjM0My1jM2FjLTRlZmItYjgyNS1lMTIwNmYwYTAwNWVfMS5qcGc.webp);
     background-size: contain;
 
     background-blend-mode:color;
