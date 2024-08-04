@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
+
+body {
+  background-image: url(https://www.hdwallpapers.in/download/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1600x900.jpg);
+  /* background-position: fixed; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-attachment: fixed;
+
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", Cursive;
+  
+}
+.heading>h1{
+  font-weight: 50px;
+  font-size: 40px;
+}
+
+.container {
+  /* display: flex;
+  flex-direction: column; */
+  width: 96vw;
+  /* border: 1px solid white; */
+  height: fit-content;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 6px;
+}
+
+.search {
+  width: 80%;
+  display: flex;
+  /* border: 1px solid white; */
+  height: 70px;
+  padding: 20px;
+  position: relative;
+  left: 11%;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 40px;
+  padding-left: 30px;
+  background: transparent;
+  border: 1px solid white;
+}
+
+input:focus {
+  /* background-color:  purple; */
+  /* background:  purple; */
+  outline: none;
+  border: 3px solid purple;
+}
+
+button {
+  height: 30px;
+  width: auto;
+  position: relative;
+  top: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn {
+  width: 64px;
+  height: 61px;
+  border-radius: 50px;
+  position: relative;
+  top: 2px;
+  right: 62px;
+  background-color: rgb(117, 2, 128);
+
+}
+
+.search-btn:focus {
+  outline: none;
+  border: 1px solid rgb(128, 0, 0);
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/820/134/desktop-wallpaper-black-aesthetic-cartoon-dark-aesthetic-mobile.jpg) no-repeat fixed center;
+  }
+
+  .container {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100vw;
+    /* border: 1px solid white; */
+    height: auto;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .search {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid white; */
+    height: 70px;
+    padding: 0px;
+    position: relative;
+    left: 1%;
+    margin-top: 10px;
+  }
+
+  input {
+    width: 109vw;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-left: 30px;
+  }
+
+  input:focus {
+    /* background-color:  purple; */
+    /* background:  purple; */
+    outline: none;
+    border: 3px solid purple;
+  }
+
+  .search-btn {
+    /* width: 900px; */
+    font-size: 50px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+    top: 90px;
+    right: 55%;
+    padding: 0px 90px 0px 70px;
+    /* box-shadow: ; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.jpg), url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19zaW1wbGVfbWluaW1hbGlzdF9waG90b19vZl9tb3VudGFpbl9hbmRfbW9vbl9pbl8zNTcwMjM0My1jM2FjLTRlZmItYjgyNS1lMTIwNmYwYTAwNWVfMS5qcGc.jpg);
+    background-size: contain;
+
+    background-blend-mode:color;
+  }
+  .heading>h1{
+    font-size: 55px;
+    color: blueviolet;
+    font-weight: 5000;
+    margin-bottom: 50px;
+  }
+
+  .container {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100vw;
+    /* border: 1px solid white; */
+    height: fit-content;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .search {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid white; */
+    height: 70px;
+    padding: 0px;
+    position: relative;
+    left: 1%;
+    margin-top: 10px;
+  }
+
+  input {
+    width: 90vw;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-left: 30px;
+    border: 0.5px solid white;
+  }
+
+  input:focus {
+    /* background-color:  purple; */
+    /* background:  purple; */
+    outline: none;
+    border: 3px solid purple;
+  }
+
+  .search-btn {
+    /* width: 900px; */
+    font-size: 50px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+    top: 90px;
+    right: 70%;
+    padding: 0px 100px 0px 70px;
+    box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
+  }
+
+}
