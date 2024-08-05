@@ -17,9 +17,9 @@ const Loading = () => {
   size="100"
   stroke="8"
   stroke-length="0.15"
-  bg-opacity="0.151"
+  bg-opacity="0.551"
   speed="1.4" 
-  color="purple" 
+  color="yellow" 
 >
 
 </l-trefoil>
