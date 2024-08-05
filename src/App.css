@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
 
 body {
-  background-image: url(https://4kwallpapers.com/images/wallpapers/desert-doom-sand-dunes-dark-background-monochrome-landscape-3440x1440-6409.jpg),url(https://wallpapers-clan.com/wp-content/uploads/2024/02/aesthetic-smoke-dark-desktop-wallpaper-preview.jpg);
+  background-image: url(/public/desert-doom-sand-dunes-dark-background-monochrome-landscape-3440x1440-6409.jpg),url(/public/aesthetic-smoke-dark-desktop-wallpaper-preview.jpg);
   /* background-position: fixed; */
   /* background-repeat: no-repeat; */
   background-size: cover;
