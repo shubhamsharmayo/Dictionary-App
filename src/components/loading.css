@@ -1,4 +1,22 @@
 .loading{
-    position: relative;
-    left: 605px;
+    position: absolute;
+    left: 45%;
+    transform: translateY(-60px);
+}
+
+
+@media (min-width: 480px) and (max-width: 580px) {
+    .loading{
+        position: relative;
+    left: 14em;
+    transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .loading{
+        position: relative;
+    left: 9em;
+    transform: translateY(0px);
+    }
 }

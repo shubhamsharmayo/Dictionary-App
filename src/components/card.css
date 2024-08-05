@@ -71,5 +71,6 @@ gap: 40px;
 }
 .word-box>h1{
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 40px;
+    word-break: break-all;
 }

@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
 
 body {
-  background-image: url(/public/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1600x900.jpg);
+  background-image: url(https://4kwallpapers.com/images/wallpapers/desert-doom-sand-dunes-dark-background-monochrome-landscape-3440x1440-6409.jpg),url(https://wallpapers-clan.com/wp-content/uploads/2024/02/aesthetic-smoke-dark-desktop-wallpaper-preview.jpg);
   /* background-position: fixed; */
   /* background-repeat: no-repeat; */
-  /* background-size: cover; */
+  background-size: cover;
   background-attachment: fixed;
-
+  background-blend-mode:screen;
 }
 
 .heading {
@@ -19,7 +19,10 @@ body {
 }
 .heading>h1{
   font-weight: 50px;
-  font-size: 40px;
+  font-size: 50px;
+  color: rgb(213, 1, 255);
+  filter: drop-shadow(5px 5px 5px purple);
+ 
 }
 
 .container {
@@ -87,15 +90,20 @@ button {
   border: 1px solid rgb(128, 0, 0);
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 533px) {
   body {
-    background-image: url(/public/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1600x900.jpg);
+    background-image: url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.webp), url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19zaW1wbGVfbWluaW1hbGlzdF9waG90b19vZl9tb3VudGFpbl9hbmRfbW9vbl9pbl8zNTcwMjM0My1jM2FjLTRlZmItYjgyNS1lMTIwNmYwYTAwNWVfMS5qcGc.webp);
+    background-size: contain;
+
+    background-blend-mode:color;
+    background-size: 100%;
   }
 
   .container {
     /* display: flex;
     flex-direction: column; */
-    width: 100vw;
+    width: 99vw;
+    height: auto;
     /* border: 1px solid white; */
     height: auto;
     padding: 0px;
@@ -116,7 +124,7 @@ button {
   }
 
   input {
-    width: 109vw;
+    width: 98vw;
     height: 60px;
     border-radius: 50px;
     font-size: 40px;
@@ -137,7 +145,7 @@ button {
     border-radius: 50px;
     position: relative;
     top: 90px;
-    right: 55%;
+    right: 332px;
     padding: 0px 90px 0px 70px;
     /* box-shadow: ; */
   }
@@ -149,6 +157,7 @@ button {
     background-size: contain;
 
     background-blend-mode:color;
+    background-size: 100%;
   }
   .heading>h1{
     font-size: 55px;
@@ -156,11 +165,12 @@ button {
     font-weight: 5000;
     margin-bottom: 50px;
   }
-
+ 
   .container {
     /* display: flex;
     flex-direction: column; */
-    width: 100vw;
+    width: 99vw;
+    height: auto;
     /* border: 1px solid white; */
     height: fit-content;
     padding: 0px;
@@ -203,9 +213,58 @@ button {
     border-radius: 50px;
     position: relative;
     top: 90px;
-    right: 70%;
+    right: 299px;
     padding: 0px 100px 0px 70px;
     box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
   }
 
+}
+
+@media screen and (max-width: 400px) {
+
+  .container {
+    /* display: flex;
+    flex-direction: column; */
+    width: 99vw;
+    height: auto;
+    /* border: 1px solid white; */
+    height: fit-content;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 50px;
+  }
+  .search-btn {
+    /* width: 900px; */
+    font-size: 50px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+    top: 90px;
+    right: 265px;
+    padding: 0px 100px 0px 70px;
+    box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
+  }
+}
+
+@media  (min-width: 480px) and (max-width: 527px) {
+  .container {
+    /* display: flex;
+    flex-direction: column; */
+    width: 99vw;
+    height: auto;
+    /* border: 1px solid white; */
+    height: fit-content;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 50px;
+  }
+  input {
+    width: 92vw;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-left: 30px;
+  }
 }

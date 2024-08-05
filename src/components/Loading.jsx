@@ -1,9 +1,11 @@
 import React from 'react'
-import { tailspin } from 'ldrs'
+
 import './loading.css'
 
-tailspin.register()
 
+import { trefoil } from 'ldrs'
+
+trefoil.register()
 
 
 const Loading = () => {
@@ -11,13 +13,17 @@ const Loading = () => {
     <div className='loading'>
 
 
-<l-tailspin
+<l-trefoil
   size="100"
-  stroke="12"
-  speed="0.9" 
-  color="white" 
-></l-tailspin>
-    </div>
+  stroke="8"
+  stroke-length="0.15"
+  bg-opacity="0.151"
+  speed="1.4" 
+  color="purple" 
+>
+
+</l-trefoil>
+</div>
   )
 }
 
