@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode:screen;
+  
 }
 
 .heading {
@@ -89,6 +90,17 @@ button {
   outline: none;
   border: 1px solid rgb(128, 0, 0);
 }
+footer{
+  /* position: relative;
+  left: 45%; */
+  margin: 0;
+  /* background-color: #0a0a0a; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  gap: 20px;
+}
 
 @media screen and (max-width: 533px) {
   body {
@@ -155,7 +167,7 @@ button {
   body {
     background-image: url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.webp), url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19zaW1wbGVfbWluaW1hbGlzdF9waG90b19vZl9tb3VudGFpbl9hbmRfbW9vbl9pbl8zNTcwMjM0My1jM2FjLTRlZmItYjgyNS1lMTIwNmYwYTAwNWVfMS5qcGc.webp);
     background-size: contain;
-
+    background-repeat: repeat;
     background-blend-mode:color;
     background-size: 100%;
   }
@@ -217,7 +229,22 @@ button {
     padding: 0px 100px 0px 70px;
     box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
   }
-
+  footer{
+    position: relative;
+    /* top: 150px; */
+    margin: 130px 20px 0 20px;
+    /* background-color: #0a0a0a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    
+  }
+  .name-display{
+    margin-top: 10px;
+  }
+  
 }
 
 @media screen and (max-width: 400px) {
@@ -280,3 +307,27 @@ button {
     border: inset 3px solid purple;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+  
+}
+
+
+ ::-webkit-scrollbar-track {
+  background-color: rgba(128, 0, 128, 0.205); 
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 44); */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: purple; 
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c702ad; 
+}
+
