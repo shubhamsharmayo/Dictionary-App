@@ -5,6 +5,7 @@ import Card from './components/Card'
 import { FaSearch } from "react-icons/fa";
 import Loading from './components/Loading'
 
+
 function App() {
   const [userdata, setuserdata] = useState("")
   const [loader, setloader] = useState(true)
@@ -58,7 +59,7 @@ function App() {
         </>
       ) : null}
       
-<footer className='social-links'><a href="https://www.instagram.com/shubham_sharma_yo?igsh=ZjFwMjk1aTJyeWpi"><img src="src/assets/icons8-instagram.svg" alt="" /></a>
+<footer className='social-links'><a href="https://www.instagram.com/shubham_sharma_yo?igsh=ZjFwMjk1aTJyeWpi"><img src="public\icons8-instagram-50.png" alt="" /></a>
       <a href="https://www.linkedin.com/in/shubham-sharma-7a1873263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="src/assets/icons8-linkedin.svg" alt="" /></a>
       <a href="https://github.com/shubhamsharmayo"><img src="src/assets/icons8-github.svg" alt="" /></a>
       </footer>
