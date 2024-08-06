@@ -102,6 +102,19 @@ footer{
   gap: 20px;
 }
 
+.link{
+  transform: translateY(0px);
+    transition: transform 0.5s linear;
+}
+
+.link:hover{
+  transform: translateY(-3px);
+    
+  transition: all 0.5s linear ;
+  
+ filter: drop-shadow(0px 2px 3px rgb(234, 0, 255))  !important;
+}
+
 @media screen and (max-width: 533px) {
   body {
     background-image: url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.webp), url(/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19zaW1wbGVfbWluaW1hbGlzdF9waG90b19vZl9tb3VudGFpbl9hbmRfbW9vbl9pbl8zNTcwMjM0My1jM2FjLTRlZmItYjgyNS1lMTIwNmYwYTAwNWVfMS5qcGc.webp);
@@ -307,6 +320,7 @@ footer{
   }
   .name-display{
     margin-top: 10px;
+    text-align: center;
   }
 }
 
