@@ -52,7 +52,7 @@ If you want to run this project locally, follow these steps:
     npm run dev
     ```
 
-5. Open your browser and go to `http://localhost:3000` to see the application.
+5. Open your browser and go to `http://localhost:5174` to see the application.
 
 ## Contributing
 
