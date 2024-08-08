@@ -39,7 +39,7 @@ If you want to run this project locally, follow these steps:
 
 2. Navigate to the project directory:
     ```sh
-    cd dictionary-shubham
+    cd dictionary
     ```
 
 3. Install dependencies (if using a framework like React, Angular, or Vue):
